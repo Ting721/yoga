@@ -1,5 +1,26 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.border-radius-yoga{
+  border-radius: 16px;
+
+}
+.icon-size{
+  width: 48px;
+  height: 48px;
+}
+.mess-group{
+  position: absolute;
+  top: 25vh;
+  right: 1rem;
+  z-index: 999;
+
+}
+.yoga-banner{
+  background-image: url(../images/photo-1612157777902-5382bc6e864b.jpeg);
+  height: 582px;
+  
+  background-position: center bottom;
+  background-size: cover;
+ 
+}
+.p-w-10{
+  width: 40vw;
 }
