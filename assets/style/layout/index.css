@@ -73,6 +73,10 @@
   height: 34vh;
 }
 
+.h-2 {
+  height: 2px;
+}
+
 .img-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -124,7 +128,7 @@
 }
 
 .w-350 {
-  width: 350px;
+  width: 400px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   white-space: nowrap;
@@ -162,6 +166,9 @@
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     border-top-right-radius: 1rem;
+  }
+  .w-md-50 {
+    width: 50%;
   }
 }
 
