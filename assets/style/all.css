@@ -8704,6 +8704,10 @@ fieldset:disabled .btn {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: 0.8rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -12167,12 +12171,18 @@ fieldset:disabled .btn {
 }
 
 .border-radius-yoga {
-  border-radius: 16px;
+  border-radius: 1rem;
+  border: 0.5px solid;
 }
 
 .icon-size {
   width: 48px;
   height: 48px;
+}
+
+.icon-size24 {
+  width: 24px;
+  height: 24px;
 }
 
 .mess-group {
@@ -12191,6 +12201,153 @@ fieldset:disabled .btn {
 
 .p-w-10 {
   width: 40vw;
+}
+
+.img-group {
+  background-position: center bottom;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.h-45vh {
+  height: 45vh;
+}
+
+.w-40vw {
+  width: 40vw;
+}
+
+.w-50vw {
+  width: 50vw;
+}
+
+.w-500px {
+  width: 350px;
+}
+
+.w-24vw {
+  width: 24vw;
+}
+
+.w-20vw {
+  width: 20vw;
+}
+
+.w-12vw {
+  width: 12vw;
+}
+
+.h-21vh {
+  height: 21.7vh;
+}
+
+.h-34vh {
+  height: 34vh;
+}
+
+.img-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+
+.absolute-text {
+  bottom: 1rem;
+  left: 2rem;
+}
+
+.img-h-60 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+  width: 40vw;
+  height: 60vh;
+}
+
+.img-4 {
+  background-image: url(../images/photo-1540206276207-3af25c08abc4.jpeg);
+  width: 45vw;
+}
+
+.img-5 {
+  background-image: url(../images/carl-barcelo-nqUHQkuVj3c-unsplash.jpg);
+  height: 444px;
+  width: 350px;
+}
+
+.img-6 {
+  background-image: url(../images/chair.jpg);
+  height: 160px;
+  width: 207px;
+}
+
+.img-7 {
+  background-image: url(../images/woman_yoga.jpg);
+  height: 160px;
+  width: 207px;
+}
+
+.rounded-4 {
+  border-radius: 1rem;
+}
+
+.left {
+  left: 30px;
+}
+
+.w-350 {
+  width: 350px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.rounded-end-none {
+  border-bottom-right-radius: 0rem;
+  border-top-right-radius: 0;
+}
+
+.li-none {
+  list-style: none;
+}
+
+@media (max-width: 992px) {
+  .ps-lg-9 {
+    padding-left: 7rem;
+  }
+  .h-lg-50vh {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-md-36vh {
+    height: 36vh;
+  }
+  .h-md-21vh {
+    height: 21.7vh;
+  }
+  .w-md-20vw {
+    width: 20vw;
+  }
+  .rounded-md-bottom {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .h-sm-36vh {
+    height: 36vh;
+  }
+  .h-sm-18h {
+    height: 17.2vh;
+  }
+  .rounded-sm-end-none {
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */

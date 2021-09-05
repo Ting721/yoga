@@ -8,36 +8,43 @@
     <title>yoga home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="./assets/style/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Astar_purple500%3A" rel="stylesheet">
+   
   </head>
 
   <body>
-    <div class="container-fluid bg-yellow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-yellow">
       <div class="container-md">
-        <header
-          class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3  border-bottom ">
-          <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-            <img src="./assets/images/DOYOGA-logo.png" class="w-25" alt="">
-          </a>
-      
-          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" >
-            <li><a href="#" class="nav-link px-2 link-secondary">課程介紹</a></li>
-            <li><a href="#" class="nav-link px-2 link-yoga-gray">瑜珈空間</a></li>
-            <li><a href="#" class="nav-link px-2 link-yoga-gray">當月課表</a></li>
+        <a class="navbar-brand" href="#"> <img src="./assets/images/DOYOGA-logo.png" class="w-50" alt=""> </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link link-secondary " aria-current="page" href="#">課程介紹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-yoga-gray" href="#">瑜珈空間</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-yoga-gray" href="#" tabindex="-1" aria-disabled="true">當月課表</a>
+            </li>
           </ul>
-      
-          <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-secondary border-radius-yoga me-2 px-3 py-2">立即預約</button>
-            <button type="button" class="btn btn-outline-secondary border-radius-yoga px-3 py-2 " >聯絡我們</button>
+          <div class="">
+            <button type="button" class="btn btn-outline-secondary  border-radius-yoga me-2 px-3 py-1">立即預約</button>
+            <button type="button" class="btn btn-outline-secondary border-radius-yoga px-3 py-1 ">聯絡我們</button>
           </div>
-        </header>
+        </div>
       </div>
-
-    </div>
-    <div class="position-relative">
-      <div class="mess-group translate-middle-y d-flex flex-column">
-        <a href="http://"> <img src="./assets/images/icon-fb.svg" class="icon-size mb-3"  alt=""></a>
-        <a href="http://"> <img src="./assets/images/logo-instagram.svg" class="icon-size mb-3"  alt=""></a>
-        <a href="http://"> <img src="./assets/images/line.svg" class="icon-size"  alt=""></a>
+    </nav>
+    <div class="position-relative d-none d-lg-block">
+      <div class="mess-group translate-middle-y d-flex flex-column ">
+        <a class="hover" href=#"> <img src="./assets/images/icon-fb.svg" class="icon-size mb-3"  alt=""></a>
+        <a class="hover" href="#"> <img src="./assets/images/logo-instagram.svg" class="icon-size mb-3"  alt=""></a>
+        <a class="hover" href="#"> <img src="./assets/images/line.svg" class="icon-size"  alt=""></a>
       </div>
 
     </div>
@@ -45,8 +52,9 @@
     
 
     
-<div class="container-fluid clearfix px-0">
-  <div class="yoga-banner d-flex flex-column justify-content-center ps-9">
+<div class="container-fluid  px-0">
+  <!-- Banner -->
+  <div class="yoga-banner d-flex flex-column justify-content-center ps-lg-9  ps-5">
     <div class="align-middle text-yoga-gray">
       <p class="fs-6 mb-0 fw-light">健身輕時尚</p>
       <p class="fs-1 mb-0">DOYOGA，做你的瑜珈</p>
@@ -55,18 +63,673 @@
     <div class="btn-grup">
       <a href="#" class="btn btn-yellow btn-lg text-yoga-gray" tabindex="-1" role="button" aria-disabled="true">立即預約</a>
       <a href="#" class="btn btn-primary btn-lg text-white " tabindex="-1" role="button" aria-disabled="true">課程介紹</a>
+    </div>
+  </div>
+  <!-- card1 -->
+  <div class="container-md mb-5">
+    <div class="text-center my-md-5 my-3">
+      <div class="fs-3 text-secondary mb-1">感受身心，活在當下</div>
+      <div class="fs-5 text-primary">DOYOGA 可以帶給你...</div>
+    </div>
+    <div class="row gy-4">
+      <div class="col-md-4 col-12 text-white position-relative ">
+        <img src="./assets/images/photo-1593810450967-f9c42742e326.jpeg"
+          class=" img-fluid img-cover  h-45vh  h-md-36vh " alt="">
+        <div class="position-absolute absolute-text w-75 ">
+          <div class="fs-5">整體健身</div>
+          <div class="fs-6">每一個動作，都融入運動解剖學的的觀點強調以身體的中心線為出發點。</div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12 text-white position-relative ">
+        <img src="./assets/images/photo-1593810451137-5dc55105dace.jpeg" class=" img-fluid img-cover h-45vh  h-md-36vh"
+          alt="">
+        <div class="position-absolute  absolute-text w-75">
+          <div class="fs-5">減壓放鬆</div>
+          <div class="fs-6">每一個動作，都融入運動解剖學的的觀點強調以身體的中心線為出發點。</div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12 text-white  position-relative">
+        <img src="./assets/images/photo-1599901860904-17e6ed7083a0.jpeg" class=" img-fluid img-cover h-45vh h-md-36vh"
+          alt="">
+        <div class="position-absolute absolute-text w-75">
+          <div class="fs-5">局部雕塑</div>
+          <div class="fs-6">幫助強化背部與腹部的核心肌群，增進我們身體穩定度以及保持良好體態。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- card2 -->
+  <div class="bg-yellow">
+    <div class="container-md ">
+      <div class="row  py-5 flex-lg-nowrap gx-md-5 mx-auto">
+        <div class="col-lg-6 text-center d-none d-lg-block">
+          <img src="./assets/images/photo-1540206276207-3af25c08abc4.jpeg" class=" img-fluid img-h-60" alt="">
+        </div>
+        <div class="col-lg-6 col d-flex flex-column  ">
+          <div class="fs-2 text-secondary  w-lg-75  w-100">頂尖師資、專業教學</div>
+          <div class="fs-5 text-primary  mb-5 d-inline   w-lg-75  w-100 ">強力師資，經歷豐富，協會認證。運用引導式教學，針對不同需求的人制定專屬課程。</div>
+          <div class="card mb-3 rounded-4  ">
+            <div class="row g-0">
+              <div class="col-3 text-center my-auto ">
+                <img src="./assets/images/teacher-1.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+              </div>
+              <div class="col-9">
+                <div class="card-body text-yoga-gray ">
+                  <h5 class="card-title ">Carol Tang 老師</h5>
+                  <p class="card-text  ">教學經歷 10 年 <br>瑜珈讓我重新認識自己的身體，也讓我有了不一樣的人生。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 rounded-4 ">
+            <div class="row g-0">
+              <div class="col-3 text-center my-auto ">
+                <img src="./assets/images/teacher-2.png" class="img-fluid rounded-start px-2 ms-2" alt="...">
+              </div>
+              <div class="col-9">
+                <div class="card-body text-yoga-gray ">
+                  <h5 class="card-title ">Kanae 老師</h5>
+                  <p class="card-text  ">教學經歷 10 年 </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 rounded-4">
+            <div class="row g-0">
+              <div class="col-3 text-center my-auto ">
+                <img src="./assets/images/teacher-3.png" class="img-fluid rounded-start px-2 ms-2" alt="...">
+              </div>
+              <div class="col-9">
+                <div class="card-body text-yoga-gray ">
+                  <h5 class="card-title ">Asa Ifrit 老師</h5>
+                  <p class="card-text  ">教學經歷 10 年 </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- card3  -->
+  <div class="container-md  py-5 ">
+    <div class="d-none d-sm-block">
+      <div class="row ">
+        <div class="col-4  text-center ">
+          <img src="./assets/images/carl-barcelo-nqUHQkuVj3c-unsplash.jpg" class="img-cover w-24vw h-45vh h-sm-36vh"
+            alt="">
+        </div>
+        <div class="col-2 h-100">
+          <img src="./assets/images/white round table near brown wooden chair.jpg"
+            class="img-cover w-12vw  h-21vh mb-3 h-sm-18h" alt="">
+          <img src="./assets/images/woman in black sports bra and blue denim jeans doing yoga.jpg"
+            class="img-cover w-12vw h-21vh h-sm-18h" alt="">
+        </div>
+        <div class="col-6 d-flex flex-wrap align-self-center ">
+          <div class="fs-2  text-secondary ">舒適空間、靜心放鬆</div>
+          <div class="fs-5 text-primary  mb-5">我們都渴望平靜安穩的生活，擁有一處能夠靜心的角落，安撫每天繁雜忙碌的心。</div>
+          <div class="fs-6 text-secondary">環境介紹
+            <span class="material-icons align-middle text-secondary">
+              arrow_right_alt</span><a href=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card3 mobile -->
+    <div class=" d-sm-none">
+      <div class="row">
+        <div class="col-12 d-flex flex-wrap align-self-center ">
+          <div class="fs-2  text-secondary ">舒適空間、靜心放鬆</div>
+          <div class="fs-5 text-primary  mb-2">我們都渴望平靜安穩的生活，擁有一處能夠靜心的角落，安撫每天繁雜忙碌的心。</div>
+          <div class="fs-6 text-secondary mb-2">環境介紹
+            <span class="material-icons align-middle text-secondary">
+              arrow_right_alt</span><a href=""></a>
+          </div>
+        </div>
+        <div class="col-12 text-center d-flex overflow-scroll ">
+          <img src="./assets/images/carl-barcelo-nqUHQkuVj3c-unsplash.jpg" class="img-cover w-40vw h-21vh me-3" alt="">
+          <img src="./assets/images/white round table near brown wooden chair.jpg" class="img-cover w-40vw h-21vh me-3"
+            alt="">
+          <img src="./assets/images/woman in black sports bra and blue denim jeans doing yoga.jpg"
+            class="img-cover w-40vw h-21vh " alt="">
+        </div>
+      </div>
 
     </div>
-    
-   
 
   </div>
+  <!-- card4 -->
+  <div class="bg-yellow  ">
+    <div class="container-md">
+      <div class="row py-5 ">
+        <div class="col-md-6 d-flex flex-wrap align-self-center ">
+          <div class="fs-2 text-secondary ">精心設計、課程多元</div>
+          <div class="fs-5 text-primary  mb-5">教師帶領多元課程，釋放壓力，與身心常見的緊繃不適溫柔和解。</div>
+          <div class="fs-6 text-secondary">課程介紹 <span class="material-icons align-middle text-secondary">
+              arrow_right_alt
+            </span><a href=""></a> </div>
+        </div>
+        <div class=" col-6 d-none d-lg-block ">
+          <div class="d-flex overflow-scroll">
+            <img src="./assets/images/woman doing yoga beside wall.jpg" class="img-cover w-40vw h-45vh me-4 " alt="">
+            <img src="./assets/images/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg" class="img-cover w-40vw h-45vh me-4"
+              alt="">
+            <img src="./assets/images/woman in black sports bra and black leggings doing yoga.jpg"
+              class="img-cover w-40vw h-45vh me-4" alt="">
+            <img src="./assets/images/woman in white tank top and white leggings bending her body.jpg"
+              class="img-cover w-40vw h-45vh " alt="">
+          </div>
+        </div>
+        <!-- card4 pad mobile -->
+        <div class="col-md-6 d-lg-none">
+          <div class="d-flex justify-content-evenly">
+            <img src="./assets/images/woman doing yoga beside wall.jpg"
+              class="img-cover w-md-20vw h-md-21vh  w-40vw h-21vh mb-3" alt="">
+            <img src="./assets/images/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg"
+              class="img-cover w-md-20vw h-md-21vh w-40vw h-21vh  " alt="">
+          </div>
+          <div class="d-flex justify-content-evenly">
+            <img src="./assets/images/woman in black sports bra and black leggings doing yoga.jpg"
+              class="img-cover w-md-20vw h-md-21vh  w-40vw h-21vh " alt="">
+            <img src="./assets/images/woman in white tank top and white leggings bending her body.jpg"
+              class="img-cover w-md-20vw h-md-21vh w-40vw h-21vh " alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- card5 -->
+  <div class="container-md mb-5">
+    <div class="text-center my-md-5 my-3">
+      <div class="fs-3 text-secondary mb-1">方案選擇</div>
+      <div class="fs-5 text-primary">DOYOGA 可以帶給你...</div>
+    </div>
+    <div class="row gy-3">
+      <div class="col-md-4 col-12">
+        <div class="card rounded-4 border border-secondary">
+          <div class="row  ">
+            <div class="col-md-12 col-sm-6 col-12">
+              <img src="./assets/images/woman in white tank top and white leggings bending her body.jpg"
+                class="card-img-top  img-cover rounded-md-bottom rounded-end-none   h-md-21vh  h-34vh" alt="...">
+            </div>
+            <div class="col-md-12 col-sm-6 col-12">
+              <div class="card-body text-md-center">
+                <h5 class="card-title text-secondary">首次體驗</h5>
+                <p class="fs-5 text-primary">NT $450 / 次</p>
+                <p class="card-text text-primary">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。
+                </p>
+                <a href="#" class="btn btn-primary text-white w-100 fs-5">選擇課程</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card rounded-4 order border-secondary">
+          <div class="row ">
+            <div class="col-md-12 col-sm-6 col-12 ">
+              <img src="./assets/images/woman performing yoga.jpg"
+                class="card-img-top  img-cover rounded-md-bottom rounded-end-none   h-md-21vh  h-34vh" alt="...">
+            </div>
+            <div class="col-md-12 col-sm-6 col-12  ">
+              <div class="card-body text-md-center ">
+                <h5 class="card-title text-secondary">短期體驗</h5>
+                <p class="fs-5 text-primary">NT $1800 / 月</p>
+                <p class="card-text text-primary">分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。
+                </p>
+                <a href="#" class="btn btn-primary text-white w-100 fs-5">選擇課程</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card rounded-4 order border-secondary">
+          <div class="row ">
+            <div class="col-md-12 col-sm-6 col-12 ">
+              <img src="./assets/images/woman in blue leggings and black tank top doing yoga.jpg"
+                class="card-img-top  img-cover rounded-md-bottom rounded-end-none   h-md-21vh  h-34vh" alt="...">
+            </div>
+            <div class="col-md-12 col-sm-6 col-12 ">
+              <div class="card-body text-md-center">
+                <h5 class="card-title text-secondary">長期體驗</h5>
+                <p class="fs-5 text-primary">NT $5600 / 季</p>
+                <p class="card-text text-primary">分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。
+                </p>
+
+                <a href="#" class="btn btn-primary text-white w-100 fs-5">選擇課程</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- card6 -->
+  <!-- <div class="bg-yellow"> 
+    <div class="container-md py-3">
+      <div class="text-center my-md-5 my-3">
+        <div class="fs-3 text-secondary mb-5">聽聽他們怎麼說</div>
+      </div>
+
+      <div class=" row  ">
+        <div class="col-12  ">
+          <ul class="overflow-scroll d-flex ">
+            <li class="  d-inline me-3  w-500px" >
+                  <div class="card mb-3 rounded-4   ">
+                    <div class="row g-0">
+                      <div class="col-3 text-center my-auto ">
+                        <img src="./assets/images/user-1.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+                      </div>
+                      <div class="col-9 ">
+                        <div class="card-body text-yoga-gray d-flex flex-column align-items-start flex-wrap ">
+                          <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">Joanne <span class="fs-7"> Oct
+                              17
+                              2020</span> </p>
+                          <div class="text-primary mb-2">
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                          </div>
+                          <p class="card-text fs-6 text-primary ">服務很好、設備優良！</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </li>
+            <li class="d-inline w-500px me-3">
+              <div class="card mb-3 rounded-4   ">
+                <div class="row g-0">
+                  <div class="col-3 text-center my-auto ">
+                    <img src="./assets/images/user-2.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+                  </div>
+                  <div class="col-9 ">
+                    <div class="card-body text-yoga-gray d-flex flex-column align-items-start flex-wrap ">
+                      <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">穎旻 <span class="fs-7"> Oct 17
+                          2020</span> </p>
+                      <div class="text-primary mb-2">
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                      </div>
+                      <p class="card-text fs-6 text-primary ">上課後身體健康很多</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="d-inline w-500px ">
+              <div class="card mb-3 rounded-4 w-500px rounded-4   ">
+                <div class="row g-0 ">
+              
+                  <div class="col-3 text-center my-auto ">
+                    <img src="./assets/images/user-3.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+                  </div>
+                  <div class="col-9 ">
+                    <div class="card-body text-yoga-gray d-flex flex-column align-items-start flex-wrap ">
+                      <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">子琪 <span class="fs-7"> Oct 17
+                          2020</span> </p>
+                      <div class="text-primary mb-2">
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star "></i>
+                      </div>
+                      <p class="card-text fs-6 text-primary ">讚的！</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        
+      
+         
+         
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>  -->
+  <div class="bg-yellow">
+    <div class="container-md py-3">
+      <div class="text-center my-md-5 my-3">
+        <div class="fs-3 text-secondary mb-5">聽聽他們怎麼說</div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex overflow-scroll">
+          <div class="d-flex align-items-center bg-white rounded-4 py-3 me-3 w-350 ">
+            <div class="flex-shrink-0 ">
+              <img src="./assets/images/user-1.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+            </div>
+            <div class="flex-grow-1 ms-3 ">
+              <p class=" fs-6 text-primary d-flex align-items-center me-1 ">Joanne <span class="fs-7"> Oct 17
+                  2020</span> </p>
+              <div class="text-primary mb-2">
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+              </div>
+              <p class="card-text fs-6 text-primary ">服務很好、設備優良！</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center bg-white rounded-4 py-3 me-3 w-350  ">
+            <div class="flex-shrink-0 ">
+              <img src="./assets/images/user-2.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+            </div>
+            <div class="flex-grow-1 ms-3 ">
+              <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">穎旻 <span class="fs-7"> Oct 17
+                  2020</span> </p>
+              <div class="text-primary mb-2">
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+              </div>
+              <p class="card-text fs-6 text-primary ">上課後身體健康很多</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center bg-white rounded-4 py-3 me-3  w-350 ">
+            <div class="flex-shrink-0 ">
+              <img src="./assets/images/user-2.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+            </div>
+            <div class="flex-grow-1 ms-3 ">
+              <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">子琪 <span class="fs-7"> Oct 17
+                  2020</span> </p>
+              <div class="text-primary mb-2">
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+              </div>
+              <p class="card-text fs-6 text-primary ">讚的！</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12 d-flex overflow-scroll">
+          <div class="d-flex align-items-center bg-white rounded-4 py-3 me-3 w-350">
+            <div class="flex-shrink-0 ">
+              <img src="./assets/images/user-4.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+            </div>
+            <div class="flex-grow-1 ms-3 ">
+              <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">葉子 <span class="fs-7"> Oct 17
+                  2020</span> </p>
+              <div class="text-primary mb-2">
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+              </div>
+              <p class="card-text fs-6 text-primary ">上課很有趣！</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center bg-white rounded-4 py-3 me-3 w-350">
+            <div class="flex-shrink-0 ">
+              <img src="./assets/images/user-5.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+            </div>
+            <div class="flex-grow-1 ms-3 ">
+              <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">Ray <span class="fs-7"> Oct 17
+                  2020</span> </p>
+              <div class="text-primary mb-2">
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+              </div>
+              <p class="card-text fs-6 text-primary ">老師的教學很專業</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center bg-white rounded-4 py-3  w-350">
+            <div class="flex-shrink-0 ">
+              <img src="./assets/images/uset-6.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+            </div>
+            <div class="flex-grow-1 ms-3 ">
+                <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">俊儀 <span class="fs-7"> Oct 17
+                    2020</span> </p>
+                <div class="text-primary mb-2">
+                  <i class="fas fa-star "></i>
+                  <i class="fas fa-star "></i>
+                  <i class="fas fa-star "></i>
+                  <i class="fas fa-star "></i>
+                  <i class="fas fa-star "></i>
+                </div>
+                <p class="card-text fs-6 text-primary ">很舒壓</p>
+            </div>
+          </div>
+
+
+        </div>
+        
+      </div>
+
+    </div>
+
+
+
+  </div>
+
 </div>
 
 
-    <footer class="footer">
-      footer
-    </footer>
+
+<!-- <div class="bg-yellow">
+      <div class="container-md py-3">
+        <div class="text-center my-md-5 my-3">
+          <div class="fs-3 text-secondary mb-5">聽聽他們怎麼說</div>
+          <div class="overflow-visible " >
+              <div class="row ">
+                <div class="col-4">
+                  <div class="card mb-3 rounded-4  ">
+                    <div class="row g-0">
+                      <div class="col-3 text-center my-auto ">
+                        <img src="./assets/images/user-1.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+                      </div>
+                      <div class="col-9 ">
+                        <div class="card-body text-yoga-gray d-flex flex-column align-items-start ">
+                          <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">Joanne <span class="fs-7"> Oct 17
+                              2020</span> </p>
+                          <div class="text-primary mb-2">
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                          </div>
+                          <p class="card-text fs-6 text-primary ">服務很好、設備優良！</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card mb-3 rounded-4  ">
+                    <div class="row g-0">
+                      <div class="col-3 text-center my-auto ">
+                        <img src="./assets/images/user-2.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+                      </div>
+                      <div class="col-9 ">
+                        <div class="card-body text-yoga-gray d-flex flex-column align-items-start ">
+                          <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">穎旻 <span class="fs-7"> Oct 17
+                              2020</span> </p>
+                          <div class="text-primary mb-2">
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                          </div>
+                          <p class="card-text fs-6 text-primary ">上課後身體健康很多</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card mb-3 rounded-4  ">
+                    <div class="row g-0 ">
+                      
+                      <div class="col-3 text-center my-auto ">
+                        <img src="./assets/images/user-3.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+                      </div>
+                      <div class="col-9 ">
+                        <div class="card-body text-yoga-gray d-flex flex-column align-items-start  ">
+                          <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">子琪 <span class="fs-7"> Oct 17
+                              2020</span> </p>
+                          <div class="text-primary mb-2">
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                          </div>
+                          <p class="card-text fs-6 text-primary ">讚的！</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <div class="card mb-3 rounded-4  ">
+                    <div class="row g-0">
+                      <div class="col-3 text-center my-auto ">
+                        <img src="./assets/images/user-4.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+                      </div>
+                      <div class="col-9 ">
+                        <div class="card-body text-yoga-gray d-flex flex-column align-items-start ">
+                          <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">葉子 <span class="fs-7"> Oct 17
+                              2020</span> </p>
+                          <div class="text-primary mb-2">
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                          </div>
+                          <p class="card-text fs-6 text-primary ">上課很有趣！</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card mb-3 rounded-4  ">
+                    <div class="row g-0">
+                      <div class="col-3 text-center my-auto ">
+                        <img src="./assets/images/user-4.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+                      </div>
+                      <div class="col-9 ">
+                        <div class="card-body text-yoga-gray d-flex flex-column align-items-start ">
+                          <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">Ray <span class="fs-7"> Oct 17
+                              2020</span> </p>
+                          <div class="text-primary mb-2">
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                          </div>
+                          <p class="card-text fs-6 text-primary ">老師的教學很專業</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card mb-3 rounded-4  ">
+                    <div class="row g-0">
+                      <div class="col-3 text-center my-auto ">
+                        <img src="./assets/images/uset-6.png" class="img-fluid rounded-start px-2 ms-2 " alt="...">
+                      </div>
+                      <div class="col-9 ">
+                        <div class="card-body text-yoga-gray d-flex flex-column align-items-start ">
+                          <p class="card-title fs-6 text-primary d-flex align-items-center me-1 ">俊儀 <span class="fs-7"> Oct 17
+                              2020</span> </p>
+                          <div class="text-primary mb-2">
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                          </div>
+                          <p class="card-text fs-6 text-primary ">很舒壓</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        
+
+        </div>
+        
+
+      </div>
+
+    </div>  -->
+</div>
+
+    
+      <footer class="container-fluid bg-secondary ">
+        <div class="container-md py-4 d-flex justify-content-between ">
+           <h3 class="text-white fw-normal">現在訂閱，獲得課程優惠碼！</h3> 
+          <div class="input-group mb-3 w-50 ">
+            <input type="text" class="form-control text-primary " placeholder="輸入您的電子信箱" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <button class="btn btn-primary text-white" type="button" id="button-addon2">訂閱</button>
+          </div>
+        </div>
+        <hr class="text-white">
+        <div class="container-md d-flex justify-content-between">
+          <div class="fs-2 text-white ">DOYOGA</div>
+          <div class="g">
+            <a class="hover me-2" href=#"> <img src="./assets/images/icon-fb-white.svg" class="icon-size24 " alt=""></a>
+            <a class="hover me-2"" href="#"> <img src="./assets/images/logo-instagram-white.svg" class="icon-size24" alt=""></a>
+            <a class="hover me-2"" href="#"> <img src="./assets/images/line-white.svg" class="icon-size24" alt=""></a>
+          
+          </div>
+          
+        </div>
+        <ul class="text-white container-md ">
+          <li class="li-none">課程介紹<a href="http://"></a></li>
+          <li class="li-none">瑜珈空間<a href="http://"></a></li>
+          <li class="li-none">當月課表<a href="http://"></a></li>
+        </ul>
+        <p class=" text-white text-center">© 2021. All Rights Reserved.</p>
+        
+        
+          
+          
+
+       
+        
+        
+        
+
+      </footer>
+     
+   
 
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
