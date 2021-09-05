@@ -58,6 +58,9 @@
 .h-34vh {
   height: 34vh;
 }
+.h-2{
+  height: 2px;
+}
 .img-cover {
   object-fit: cover;
   border-radius: 1rem;
@@ -106,7 +109,7 @@
 }
 
 .w-350 {
-   width: 350px;
+   width: 400px;
    flex-shrink:0;
   white-space:nowrap;
 }
@@ -142,6 +145,9 @@
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0 ;
     border-top-right-radius: 1rem;
+  }
+  .w-md-50{
+    width: 50%;
   }
 }
 
