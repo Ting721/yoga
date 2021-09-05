@@ -8,36 +8,43 @@
     <title><%- title %></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="./assets/style/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Astar_purple500%3A" rel="stylesheet">
+   
   </head>
 
   <body>
-    <div class="container-fluid bg-yellow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-yellow">
       <div class="container-md">
-        <header
-          class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3  border-bottom ">
-          <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-            <img src="./assets/images/DOYOGA-logo.png" class="w-25" alt="">
-          </a>
-      
-          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" >
-            <li><a href="#" class="nav-link px-2 link-secondary">課程介紹</a></li>
-            <li><a href="#" class="nav-link px-2 link-yoga-gray">瑜珈空間</a></li>
-            <li><a href="#" class="nav-link px-2 link-yoga-gray">當月課表</a></li>
+        <a class="navbar-brand" href="#"> <img src="./assets/images/DOYOGA-logo.png" class="w-50" alt=""> </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link link-secondary " aria-current="page" href="#">課程介紹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-yoga-gray" href="#">瑜珈空間</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-yoga-gray" href="#" tabindex="-1" aria-disabled="true">當月課表</a>
+            </li>
           </ul>
-      
-          <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-secondary border-radius-yoga me-2 px-3 py-2">立即預約</button>
-            <button type="button" class="btn btn-outline-secondary border-radius-yoga px-3 py-2 " >聯絡我們</button>
+          <div class="">
+            <button type="button" class="btn btn-outline-secondary  border-radius-yoga me-2 px-3 py-1">立即預約</button>
+            <button type="button" class="btn btn-outline-secondary border-radius-yoga px-3 py-1 ">聯絡我們</button>
           </div>
-        </header>
+        </div>
       </div>
-
-    </div>
-    <div class="position-relative">
-      <div class="mess-group translate-middle-y d-flex flex-column">
-        <a href="http://"> <img src="./assets/images/icon-fb.svg" class="icon-size mb-3"  alt=""></a>
-        <a href="http://"> <img src="./assets/images/logo-instagram.svg" class="icon-size mb-3"  alt=""></a>
-        <a href="http://"> <img src="./assets/images/line.svg" class="icon-size"  alt=""></a>
+    </nav>
+    <div class="position-relative d-none d-lg-block">
+      <div class="mess-group translate-middle-y d-flex flex-column ">
+        <a class="hover" href=#"> <img src="./assets/images/icon-fb.svg" class="icon-size mb-3"  alt=""></a>
+        <a class="hover" href="#"> <img src="./assets/images/logo-instagram.svg" class="icon-size mb-3"  alt=""></a>
+        <a class="hover" href="#"> <img src="./assets/images/line.svg" class="icon-size"  alt=""></a>
       </div>
 
     </div>
@@ -46,9 +53,46 @@
 
     <%- contents %>
 
-    <footer class="footer">
-      footer
-    </footer>
+    
+      <footer class="container-fluid bg-secondary ">
+        <div class="container-md py-4 d-flex justify-content-between ">
+           <h3 class="text-white fw-normal">現在訂閱，獲得課程優惠碼！</h3> 
+          <div class="input-group mb-3 w-50 ">
+            <input type="text" class="form-control text-primary " placeholder="輸入您的電子信箱" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <button class="btn btn-primary text-white" type="button" id="button-addon2">訂閱</button>
+          </div>
+        </div>
+        <hr class="text-white">
+        <div class="container-md d-flex justify-content-between">
+          <div class="fs-2 text-white ">DOYOGA</div>
+          <div class="g">
+            <a class="hover me-2" href=#"> <img src="./assets/images/icon-fb-white.svg" class="icon-size24 " alt=""></a>
+            <a class="hover me-2"" href="#"> <img src="./assets/images/logo-instagram-white.svg" class="icon-size24" alt=""></a>
+            <a class="hover me-2"" href="#"> <img src="./assets/images/line-white.svg" class="icon-size24" alt=""></a>
+          
+          </div>
+          
+        </div>
+        <ul class="text-white container-md ">
+          <li class="li-none">課程介紹<a href="http://"></a></li>
+          <li class="li-none">瑜珈空間<a href="http://"></a></li>
+          <li class="li-none">當月課表<a href="http://"></a></li>
+        </ul>
+        <p class=" text-white text-center">© 2021. All Rights Reserved.</p>
+        
+        
+          
+          
+
+       
+        
+        
+        
+
+      </footer>
+     
+   
 
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
